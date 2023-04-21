@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/primera-app/static/css/main.d851b47a.css",
+    "main.js": "/primera-app/static/js/main.be7f36cc.js",
+    "static/js/787.74be6603.chunk.js": "/primera-app/static/js/787.74be6603.chunk.js",
+    "static/media/RickandMortyPoster.jpg": "/primera-app/static/media/RickandMortyPoster.c5460a6681f5c0ad56e1.jpg",
+    "static/media/logo.svg": "/primera-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/primera-app/index.html",
+    "main.d851b47a.css.map": "/primera-app/static/css/main.d851b47a.css.map",
+    "main.be7f36cc.js.map": "/primera-app/static/js/main.be7f36cc.js.map",
+    "787.74be6603.chunk.js.map": "/primera-app/static/js/787.74be6603.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d851b47a.css",
+    "static/js/main.be7f36cc.js"
+  ]
+}
