@@ -1,0 +1,50 @@
+:root{
+    --menu-border-color: #4895EF;
+    --background-color: #ffffeb;
+    --text-color: black;
+    --active: #d62828;
+    --menu-text-color: #f72585;
+    --menu-text-hover-color: #4cc9f0;
+    --button-background-color: #ff80ba;
+    --button-background-color-hover: #8dafff;
+}
+
+/*
+@media (prefers-color-scheme: dark){
+    :root{
+        --menu-border-color: #ebb2ff;
+        --bakground-color: #051739;
+        --text-color: white;
+        --active: #f77f00;
+        --menu-text-color: #ff6cf3;
+        --menu-text-hover-color: #83d0ff;
+        --button-background-color: #427bfe;
+        --button-background-color-hover: #c865f9ff;
+    }
+}
+*/
+
+body, html, #root{
+    min-height: 100vh;
+}
+
+.App{
+    height: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    flex: 1;
+    padding: 14px;
+}
+
+footer {
+    border-top: 1px solid var(--menu-border-color);
+    padding: 10px;
+    text-align: center;
+}
