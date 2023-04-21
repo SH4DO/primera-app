@@ -1,4 +1,4 @@
-import Arrow from "../assets/RickandMortyPoster.jpg";
+import Arrow from "../../assets/RickandMortyPoster.jpg";
 import "./home.css";
 
 function Home(){
