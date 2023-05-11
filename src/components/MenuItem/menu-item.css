@@ -1,14 +1,18 @@
 .menu-item{
-    padding: 10px;    
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 3%;           
 }
 
-.menu-item a {
-    color: var (--menu-text-color);
+.menu-item:hover{
+    background-color:  #ed4f8a;
+}
+
+.menu-item a {  
+    color: #f1eff0 ;
     font-weight: 600;
     font-size: 18px;
     transition: all .1s ease-in;
-}
-
-.menu-item a:hover{
-    color: var(--menu-text-hover-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }

@@ -1,7 +1,67 @@
+.div-home-main{
+    position: relative;
+    display: flex;
+}
+
+.div-home-1{
+    padding-left: 3%;
+    padding-right: 13%;
+    height: 600px;
+    width: 18%;
+}
+
+.div-home-2{
+    border-radius: var(--border-default);
+    border: solid;
+    border-width: 4px;
+    border-color: #ed4f8a;
+    background-color: var(--background-black);
+    width: 60%;
+    padding: 1%;
+}
+
+.div-home-3{
+    
+    padding-left: 3%;
+    padding-right: 3%;
+}
 .poster{
     
-    height: 350px;
+    height: 600px;
     float: left;
-    padding: 3%;
+    padding-right: 4%;
     
+}
+
+.div-home-title{
+    text-align: center;
+}
+
+.title-page{
+    display: inline-block;
+    position: relative;
+    text-shadow: 2px 5px var(--color-pink);
+    font-family: var(--text-font-title);
+    font-size: 100px; 
+}
+
+.title-page::after,.title-page::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top:0.6em;
+    box-shadow:2px 2.5px var(--color-pink);
+}
+
+.title-page::before{
+    left: -140px;
+}
+.title-page::after{
+    right: -140px;
+}
+
+.parrafo-descrip{
+    line-height: 1.5;
 }

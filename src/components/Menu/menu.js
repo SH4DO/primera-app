@@ -7,7 +7,7 @@ function Menu(){
       <ul className="menu">
         <MenuItem text="Home" link="/"/>
         <MenuItem text="Personajes" link="/personajes"/>
-        <MenuItem text="Citas" link="/citas"/>
+        <MenuItem text="Mundos" link="/citas"/>
         <MenuItem text="Episodios" link="/episodios"/>
       </ul>
     </nav>

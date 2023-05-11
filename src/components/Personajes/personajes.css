@@ -1,0 +1,66 @@
+.div-main{
+    position: relative;
+    display: flex;
+    align-content: center;
+    padding-top: 2%;
+}
+
+.div-basic{
+    padding-right: 1%;    
+    width: 50%;
+}
+
+.div-secondary{
+    display: inline-block;
+    width: 20%;
+    padding-left: 1%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: var(--background-black);
+    border: solid;
+    border-width: 4px;
+    border-color: #ed4f8a;
+    border-radius: var(--border-default);
+}
+
+.img-character{
+    height: 400px;
+    float: right;
+    padding-left: 1%;
+    border-radius: 3%;
+}
+
+hr{
+    width: 80%;
+    height: 3px;
+    background-color:#ed4f8a;
+    border: none
+}
+
+.statusAlive{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    shape-outside: circle();
+    clip-path: circle();
+    background-color:green;
+}
+
+.statusDead{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    shape-outside: circle();
+    clip-path: circle();
+    background-color:red;
+}
+
+.statusUnknown{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    shape-outside: circle();
+    clip-path: circle();
+    background-color:gray;
+}
+

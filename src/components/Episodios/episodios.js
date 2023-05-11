@@ -28,7 +28,10 @@ function Episodios(){
     return(
     <div>
         <button onClick={onRefresh}>Refresh</button>
-        <h1>{episode.name}</h1>
+        <h1>Nombre del Episodio: {episode.name}</h1><br/>
+        <p>
+            Fecha de Emision: {episode.air_date}
+        </p>
     </div>
     );
 }

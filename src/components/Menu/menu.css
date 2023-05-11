@@ -1,5 +1,5 @@
 .menu-wrapper{
-    border-bottom: 1px solid ;
+    border-bottom: 1px  ;
 }
 
 .menu{
@@ -7,4 +7,6 @@
     list-style: none;
     display: flex;
     padding: 0;
+    background-color:var(--background-black);
+    
 }
